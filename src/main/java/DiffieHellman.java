@@ -3,7 +3,6 @@ import java.math.BigInteger;
 public class DiffieHellman {
 
     public BigInteger getPublicKey(BigInteger P, BigInteger G, BigInteger a_b) {
-
         return calculatePower(G, a_b, P);
     }
 
